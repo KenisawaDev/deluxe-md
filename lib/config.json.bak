@@ -1,0 +1,19 @@
+{
+  "thumb": "https://i.pinimg.com/originals/ef/38/4a/ef384a20b7314f890a019bb6c9b3ca10.jpg",
+  "namebot": "Deluxe-bot",
+  "botNumber": "5493816129644@s.whatsapp.net",
+  "owner": ["5493816565890@s.whatsapp.net"],
+  "instagram": "https://instagram.com/kenisawadev",
+  "author": "Deluxe",
+  "session": "qr",
+  "email": "kenisawadev@gmail.com",
+  "self": false,
+  "packInfo":{
+    "packname": "DeluxeDev",
+    "author": "Deluxe-bot"
+  },
+  "ignore": {
+		"directory": ["umum"]
+	},
+	"timezone": "America/Buenos_Aires"
+}
