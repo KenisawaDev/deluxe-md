@@ -28,7 +28,7 @@ var { state, saveState } = useSingleFileAuthState(`./lib/database/${config.sessi
 }
 
 
-moment.locale("id");
+moment.locale("es");
 const attr = {};
 attr.prefix = ".";
 attr.uptime = new Date();
