@@ -98,7 +98,7 @@ const ReadFitur = () => {
 			global.reloadFile(`./command/${res}/${file}`);
 		}
 	});
-	console.log(chalk.yellow('Command loaded successfully'))
+	console.log(chalk.yellow('Command loaded successfully✓'))
 };
 // cmd
 ReadFitur();
