@@ -2,7 +2,7 @@ module.exports = {
 	name: "settextleft",
 	alias: ["setleft"],
 	desc: "Change Text On Left",
-	category: "group",
+	category: "grupo",
 	use: "<texto>",
 	query: "*Ingresar texto de salida*\n@subject nombre del grupo\n@ownergc creador del grupo\n@user nombre del usuario\n@creation cuando fue creado el grupo\n@desc descripción del grupo",
 	isAdmin: true,
