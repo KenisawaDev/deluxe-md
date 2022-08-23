@@ -1,7 +1,7 @@
 module.exports = {
 	name: "kick",
 	alias: ["kick","sacar","ban"],
-	category: "group",
+	category: "grupo",
 	desc: "Eliminar miembros del grupo",
 	isGroup: true,
 	isBotAdmin: true,
