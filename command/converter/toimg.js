@@ -4,7 +4,7 @@ let { exec } = require("child_process")
 module.exports = {
   name: "toimg",
   alias: ["toimg","toimage","jpg"],
-  category: "converter",
+  category: "convertidor",
   desc: "Convierte stickes en imágenes",
   isSpam: true,
   async run({msg,conn}){
