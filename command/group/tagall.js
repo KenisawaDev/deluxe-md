@@ -3,7 +3,7 @@ const { monospace } = require("../../lib/function")
 module.exports = {
   name: "tagall",
   alias: ["tagall","infoall","marcar"],
-	category: "group",
+	category: "grupo",
 	desc: "Menciona a todo el grupo",
 	isGroup: true,
 	isAdmin: true,
