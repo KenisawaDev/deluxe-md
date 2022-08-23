@@ -6,7 +6,7 @@ module.exports = {
 	name: "emojimix",
 	alias: ["emojimix"],
 	use: "<emoji || emoji+emoji>",
-	category: "converter",
+	category: "convertidor",
 	desc: "Envío de stickers de emojis y otros emojis",
 	wait: true,
 	query: "Ingresa los emojis\nEjemplo: .emojimix ☹️+😅",
