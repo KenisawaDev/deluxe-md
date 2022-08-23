@@ -5,7 +5,7 @@ let { monospace } = require('../../lib/function')
 module.exports = {
   name: "ytsearch",
   alias: ["yts","ytsearch","youtubesearch","getmp3","getmp4","ytmp3","ytmp4"],
-  category: "search",
+  category: "busqueda",
   desc: "Busquedas en YouTube",
   async run({msg, conn},{q, cmdNya}) {
     let { quoted, from, reply } = msg;
