@@ -7,7 +7,7 @@ const ra = require('ra-api')
 module.exports = {
   name: "swm",
   alias: ["take","wm","robar"],
-  category: "converter",
+  category: "convertidor",
   async run({msg, conn},{q}){
     const { quoted, from, type , reply} = msg;
     const content = JSON.stringify(quoted);
