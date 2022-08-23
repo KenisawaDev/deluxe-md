@@ -3,7 +3,7 @@ let { monospace } = require('../../lib/function')
 module.exports = {
   name: "play",
   alias: ["play","video","audio"],
-  category: "downloader",
+  category: "descargador",
   use: "<consulta> / <link>",
   async run({msg,conn},{q,args, map}){
    let { prefix } = map;
