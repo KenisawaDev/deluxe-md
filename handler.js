@@ -108,8 +108,8 @@ module.exports = handler = async (mek, conn, map) => {
 							renderLargerThumbnail: true,
 							showAdAttribution: true,
 							body: config.namebot,
-							thumbnail: await conn.getBuffer("https://i.pinimg.com/originals/ef/38/4a/ef384a20b7314f890a019bb6c9b3ca10.jpg"),
-							sourceUrl: "https://chat.whatsapp.com/JDQNuaJwuLdCNkAaPoiKrd",
+							thumbnail: await conn.getBuffer("https://wallpapersmug.com/download/3840x2400/1eb87b/devil-anime-girl-dark.jpg"),
+							sourceUrl: "deluxxx",
 						},
 				  })
 				: "";
