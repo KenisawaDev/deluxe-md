@@ -3,7 +3,7 @@ const { monospace, isUrl } = require("../../lib/function")
 module.exports = {
   name: "fb",
   alias: ["fbdl","facebook","fb"],
-  category: "downloader",
+  category: "descargador",
   desc: "Descarga de Facebook",
   async run({msg, conn},{q}){
     if(!q) throw ` _× Ejemplo : ${msg.command} <link>_`
