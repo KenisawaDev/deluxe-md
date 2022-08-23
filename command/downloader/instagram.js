@@ -3,7 +3,7 @@ let { monospace, isUrl } = require('../../lib/function')
 module.exports = {
   name: "ig",
 	alias: ["ig","igdl"],
-	category: "downloader",
+	category: "descargador",
 	use: "<url>",
 	async run({msg,conn},{q,args,map,cmdNya}){
 	  let { prefix } = map;
