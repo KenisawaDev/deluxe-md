@@ -15,7 +15,7 @@ module.exports = {
 	alias: ["welcome"],
 	desc: "Activa la función de bienvenida en el grupo",
 	use: "on/off",
-	category: "group",
+	category: "grupo",
 	query: "Ingreza las opciones\non = activar\noff = desactivar",
 	isAdmin: true,
 	isSpam: true,
