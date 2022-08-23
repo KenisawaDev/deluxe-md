@@ -1,7 +1,7 @@
 module.exports = {
   name: "join",
 	alias: ["join","accgc","rejectgc"],
-	category: "other",
+	category: "otros",
 	desc: "Entrar a su grupo usando una invitación de link.",
 	isPrivate: true,
 	async run({msg,conn},{args, q, cmdNya}) {
