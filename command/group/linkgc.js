@@ -3,7 +3,7 @@ let { areJidsSameUser } = require("@adiwajshing/baileys")
 module.exports = {
   name: "linkgroup",
   alias: ["linkgc","linkgroup","grouplink"],
-  category: "group",
+  category: "grupo",
   desc: "Obtener el link del grupo",
   async run({msg, conn},{args}) {
     let group = msg.from
