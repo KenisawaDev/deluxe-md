@@ -1,7 +1,7 @@
 module.exports = {
 	name: "promote",
 	alias: ["pm","promote"],
-	category: "group",
+	category: "grupo",
 	desc: "Promover a alguien para admin",
 	use: "<Mencionar Miembro>",
 	isGroup: true,
