@@ -1,7 +1,7 @@
 module.exports = {
   name: "emoji",
   alias: ["emo"],
-  category: "converter",
+  category: "convertidor",
   async run({msg, conn},{q, args, cmdNya}){
     if(!args[0]) throw `Ejemplo: .${cmdNya} 🤔`
     await msg.reply(respon.wait)
