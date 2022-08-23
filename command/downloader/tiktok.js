@@ -3,7 +3,7 @@ let { monospace, isUrl } = require('../../lib/function')
 module.exports = {
   name: "tiktok",
   alias: ["tiktok","tiktoknowm","tiktokwm","tiktokmp3","donlodtt"],
-  category: "downloader",
+  category: "descargador",
   query: "Introduzca el link de tiktok para la descarga",
   use: "<link de tiktok>",
   async run({msg, conn},{q, args, map, respon}){
