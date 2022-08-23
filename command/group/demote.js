@@ -1,7 +1,7 @@
 module.exports = {
 	name: "demote",
 	alias: ["dm","demote"],
-	category: "group",
+	category: "grupo",
 	desc: "Degradar admins del grupo",
 	use: "<tagMem>",
 	isGroup: true,
