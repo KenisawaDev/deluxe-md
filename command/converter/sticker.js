@@ -5,7 +5,7 @@ const fs = require("fs");
 module.exports = {
 	name: "sticker",
 	alias: ["s","sticker",],
-	category: "converter",
+	category: "convertidor",
 	desc: "Crea un sticker a partir de una imagen o un vídeo",
 	async run({ msg, conn }, { q }) {
 		const { quoted, from, type } = msg;
