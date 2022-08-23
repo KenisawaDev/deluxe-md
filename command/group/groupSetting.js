@@ -1,7 +1,7 @@
 module.exports = {
   name: "grupo",
   alias: ["group","grupo"],
-  category: "group",
+  category: "grupo",
   desc: "Abrir/Cerrar el grupo",
   isGroup: true,
   isAdmin: true,
