@@ -3,7 +3,7 @@ const { monospace } = require("../../lib/function")
 module.exports = {
   name: ["help"].map((v) => v + " <comando>"),
   alias: ["help","ayuda"],
-  category: "main",
+  category: "pincipal",
   desc: ['Ver información de Comando', '.ayuda <comando>'],
   async run({msg,conn},{ args, q, map}) {
       if(!q) return msg.reply("Ejemplo : .ayuda play",{adReply: true})
