@@ -1,7 +1,7 @@
 module.exports = {
   name: "settextwelcome",
   alias: ["setwelcome"],
-  category: "group",
+  category: "grupo",
   query: "*Ingresar texto de salida*\n@subject nombre del grupo\n@ownergc creador del grupo\n@user nombre del usuario\n@creation cuando fue creado el grupo\n@desc descripción del grupo",
   isGroup: true,
   isAdmin: true,
