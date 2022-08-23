@@ -3,7 +3,7 @@ let google = require('google-it')
 module.exports = {
 	name: "googlesearch",
 	alias: ["gs", "googlesearch","google"],
-	category: "search",
+	category: "busqueda",
 	wait: true,
 	query: `Ingrese el texto que desea buscar`,
 	async run({ msg, conn }, { q }) {
