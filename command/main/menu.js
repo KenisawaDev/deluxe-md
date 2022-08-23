@@ -5,7 +5,7 @@ let multi_pref = new RegExp("^[" + "!#%&?/;:,.~-+=".replace(/[|\\{}()[\]^$+*?.\-
 module.exports = {
   name: ['menu'].map((v) => v + ''),
   alias: ["cmd","menu","comandos"],
-  category: "main",
+  category: "principal",
   desc: "Mostrar comandos",
   async run({msg,conn}, {map}) {
     let { body , reply} = msg
