@@ -15,7 +15,7 @@ module.exports = {
 	alias: ["left"],
 	desc: "activar la alerta de la salida de los miembros",
 	use: "<on/off>",
-	category: "group",
+	category: "grupo",
 	query: "ingresa una opción\non = activar\noff = desactivar",
 	isAdmin: true,
 	async run({ msg, conn }, { args, prefix }) {
