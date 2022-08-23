@@ -3,7 +3,7 @@ const lyrics = require("music-lyrics")
 module.exports = {
   name: "lyrics",
   alias: ["lirik","liric","lyrics"],
-  category: "search",
+  category: "busqueda",
   desc: "Buscar letras",
   async run({msg},{q, cmdNya}){
     if(!q) throw "Ejemplo: .lyrics Joji - Ew"
