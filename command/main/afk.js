@@ -3,7 +3,7 @@ const fs = require("fs")
 module.exports = {
   name: ["afk"].map((v) => v + " <razón>"),
   alias: ["afk"],
-  category: "main",
+  category: "principal",
   desc: "Modo Offline",
   isGroup: true,
   async run({conn, msg}, {q}) {
