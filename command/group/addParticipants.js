@@ -1,7 +1,7 @@
 module.exports = {
   name: "add",
 	alias: ["add","agg"],
-	category: "group",
+	category: "grupo",
 	desc: "añadir miembros al grupo",
 	isGroup: true,
 	isBotAdmin: true,
