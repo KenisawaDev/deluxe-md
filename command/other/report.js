@@ -1,7 +1,7 @@
 module.exports = {
   name: "report",
   alias: ["reportacc","reportreject","report","reportblock"],
-  category: "other",
+  category: "otros",
   async run({msg,conn},{q,args, respon, cmdNya}){
     let { from, reply, sender, body} = msg;
     let own = config.owner.includes(sender);
