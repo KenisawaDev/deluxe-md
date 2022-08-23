@@ -50,7 +50,7 @@ module.exports = {
 			menu += monospace(`Hi, @${sender.split("@")[0]} esta es mi lista de comandos`) +`\n\n`;
 			const keys = Object.keys(category)
 			for(let key of keys){
-			  menu += `*乂 ${key.toUpperCase()}*\n`
+			  menu += `*乂 ${key.toUpperCase()}乂*\n`
 			  menu += `${category[key].map((cmd) => monospace(` × ${cmd.options.noPrefix ? "" : pref}${cmd.name}`)).join("\n")}` + "\n\n"
 			}
 			menu += `_Nota : escribe ${prefix}ayuda <comando> para saber como usar los comandos_`
