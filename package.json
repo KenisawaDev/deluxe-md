@@ -5,7 +5,7 @@
   "depecrated": false,
   "author": "Senkuu",
   "scripts": {
-    "start": "sh start.sh",
+    "start": "sh run.sh",
     "format": "prettier --write '**/*.{md,js,json}'"
   },
   "dependencies": {
